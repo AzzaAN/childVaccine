@@ -8,18 +8,34 @@ let USERCERT: string;
 // Check if the server identity has been enrolled successfully
 //InitServerIdentity();
 
+router.post('/get-records', async (req: Request, res: Response) => {
+    try {
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.body;
+        
+        let returnObject = await cntrl.getAllRecords(params.type);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
 router.post('/login', async (req: Request, res: Response) => {
     console.log(req.body);
     let password = req.body.userId;
     let cntrl = await getClientFactory("admin");
     let user;
-    if (USERCERT == "admin")
+    if (req.body.username == "admin")
         if (password == "123") {
             try {
                 user = await cntrl.isAuthinticated(req.body.username, password, req.body.type);
                 console.log(user);
                 USERCERT = req.body.username;
-                res.status(200).send(user[0]._type);
+                res.status(200).send(user);
             } catch (ex) {
                 console.log(ex.message, ex.stack);
                 res.status(500).send(ex);
@@ -41,7 +57,6 @@ router.post('/login', async (req: Request, res: Response) => {
 
 router.post('/create-record', async (req: Request, res: Response) => {
     try {
-        Vaccinerecord
         let cntrl = await getClientFactory(USERCERT);
         let modelRaw = req.body;
         let model = new Vaccinerecord(modelRaw);
@@ -91,7 +106,7 @@ router.post('/register', async (req: Request, res: Response) => {
 
       const { key, certificate } = await ca.enroll({
         enrollmentSecret,
-        enrollmentID: enrollmentID
+        enrollmentID: enrollmentID 
       });
 
       let newUser = await client.createUser({

@@ -53,7 +53,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
         console.log(healthAdmin);
         await healthAdmin.save();
       }
-      return Healthadmin;
+      return new Healthadmin().type;
     }
     const participant: any = this.findParticipant(type, true);
     const existing = await participant.query(participant, { selector: { username: username, participantId: userId } });
@@ -78,6 +78,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     }
 
     vaccinerecord.id = this.tx.stub.generateUUID("record");
+    console.log(vaccinerecord);
     await vaccinerecord.save();
   }
 
@@ -97,9 +98,11 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     }
 
     vaccinedetail.id = this.tx.stub.generateUUID("detail");
+    console.log(vaccinedetail);
     await vaccinedetail.save();
 
     vaccinerecord.vaccineDetails.push(vaccinedetail.id);
+    console.log(vaccinerecord);
     await vaccinerecord.save();
   }
 
@@ -238,7 +241,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
       participant.participantId = participantId;
       participant.status = true;
 
-      if (hospital)
+      if (type == Participants.Doctor || type == Participants.Physician)
         participant.hospital = hospital;
 
       console.log(participant);

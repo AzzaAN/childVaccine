@@ -253,3 +253,142 @@ admin
     at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
     at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
     at <anonymous>
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+admin
+admin
+admin
+38:25:39:9C:91:F7:64:0A:09:7B:4B:DD:3A:28:91:52:38:6F:04:17
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'family1' failed: Identity 'family1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'family1' failed: Identity 'family1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+42:12:59:F1:63:3A:C3:78:4B:03:F2:FB:39:65:D0:B5:B9:93:4F:17
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+admin
+admin
+admin
+A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB
+admin
+admin
+admin
+admin
+EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC
+admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:35:15)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+undefined
+HealthAdmin
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]

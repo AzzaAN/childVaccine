@@ -26,10 +26,6 @@ export class Vaccinerecord extends ConvectorModel<Vaccinerecord> {
 
   @Required()
   @Validate(yup.string())
-  public childFileNumber: string;
-
-  @Required()
-  @Validate(yup.string())
   public childGender: string;
 
   @Validate(yup.string())
