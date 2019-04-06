@@ -1,0 +1,255 @@
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 8000
+{ username: 'admin', userId: '123', type: 'Family' }
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+Cannot save null userContext. Error: Cannot save null userContext.
+    at Client.setUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1519:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:147:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+<Buffer >
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:32:42)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+<Buffer >
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:32:42)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+<Buffer >
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:32:42)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
