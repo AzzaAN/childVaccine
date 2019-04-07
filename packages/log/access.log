@@ -2108,3 +2108,1450 @@ USERCERT:  admin
 admin
 USERCERT:  admin
 admin
+Server started in port 3000
+{ username: 'admin', userId: '123' }
+admin
+Healthadmin
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+Server started in port 3000
+Server started in port 3000
+IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: true,
+     ended: true,
+     endEmitted: true,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: false,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Array],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7143,
+     _destroyed: false,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        req: [Circular],
+        locals: {},
+        [Symbol(outHeadersKey)]: [Object] },
+     [Symbol(asyncId)]: 32,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 33,
+     [Symbol(triggerAsyncId)]: 32 },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Array],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7143,
+     _destroyed: false,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        req: [Circular],
+        locals: {},
+        [Symbol(outHeadersKey)]: [Object] },
+     [Symbol(asyncId)]: 32,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 33,
+     [Symbol(triggerAsyncId)]: 32 },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { 'content-type': 'application/json',
+     'cache-control': 'no-cache',
+     'postman-token': '528e8561-f6e7-4f2f-ab30-946382adffd0',
+     'user-agent': 'PostmanRuntime/7.6.0',
+     accept: '*/*',
+     host: 'localhost:3000',
+     'accept-encoding': 'gzip, deflate',
+     'content-length': '40',
+     connection: 'keep-alive' },
+  rawHeaders: 
+   [ 'Content-Type',
+     'application/json',
+     'cache-control',
+     'no-cache',
+     'Postman-Token',
+     '528e8561-f6e7-4f2f-ab30-946382adffd0',
+     'User-Agent',
+     'PostmanRuntime/7.6.0',
+     'Accept',
+     '*/*',
+     'Host',
+     'localhost:3000',
+     'accept-encoding',
+     'gzip, deflate',
+     'content-length',
+     '40',
+     'Connection',
+     'keep-alive' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/login',
+  method: 'POST',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0,
+        _consumed: true },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Array],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Function: socketOnError],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000',
+        [Symbol(asyncId)]: 21 },
+     _idleTimeout: 120000,
+     _idleNext: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idlePrev: 
+      TimersList {
+        _idleNext: [Circular],
+        _idlePrev: [Circular],
+        _timer: [Object],
+        _unrefed: true,
+        msecs: 120000,
+        nextTick: false },
+     _idleStart: 7143,
+     _destroyed: false,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _onPendingData: [Function: bound updateOutgoingData],
+        _sent100: false,
+        _expect_continue: false,
+        req: [Circular],
+        locals: {},
+        [Symbol(outHeadersKey)]: [Object] },
+     [Symbol(asyncId)]: 32,
+     [Symbol(bytesRead)]: 0,
+     [Symbol(asyncId)]: 33,
+     [Symbol(triggerAsyncId)]: 32 },
+  _consuming: true,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '/vaccine',
+  originalUrl: '/vaccine/login',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/login',
+     path: '/login',
+     href: '/login',
+     _raw: '/login' },
+  params: {},
+  query: {},
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Array] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 7143,
+        _destroyed: false,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 32,
+        [Symbol(bytesRead)]: 0,
+        [Symbol(asyncId)]: 33,
+        [Symbol(triggerAsyncId)]: 32 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 7143,
+        _destroyed: false,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular],
+        [Symbol(asyncId)]: 32,
+        [Symbol(bytesRead)]: 0,
+        [Symbol(asyncId)]: 33,
+        [Symbol(triggerAsyncId)]: 32 },
+     _header: null,
+     _onPendingData: [Function: bound updateOutgoingData],
+     _sent100: false,
+     _expect_continue: false,
+     req: [Circular],
+     locals: {},
+     [Symbol(outHeadersKey)]: { 'x-powered-by': [Array] } },
+  body: { username: 'admin', userId: '123' },
+  _body: true,
+  length: undefined,
+  read: [Function],
+  route: Route { path: '/login', stack: [ [Object] ], methods: { post: true } } }
+admin
+Healthadmin
+USERCERT:  admin
+admin
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+Server started in port 3000
+Server started in port 3000
+Server started in port 8080
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Healthadmin
+admin
+Healthadmin
+admin
+admin
+Healthadmin
+admin
+Healthadmin
+Server started in port 3000
+undefined
+USERCERT != 'admin'
+admin
+Healthadmin
+admin
+admin
+admin
+AC:6D:5C:23:7E:5B:51:A0:4E:AC:72:A0:8B:5D:CC:C3:6F:33:DD:BE
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+21:E9:E9:16:FC:D3:86:59:DD:FE:22:E2:AC:32:6D:29:EB:D0:34:67
+admin
+admin
+admin
+admin
+2F:A8:50:2A:5B:E1:C1:CC:41:0D:5E:4F:1F:33:46:FC:05:13:56:7F
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f2' failed: Identity 'f2' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f2' failed: Identity 'f2' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f2' failed: Identity 'f2' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f2' failed: Identity 'f2' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+Server started in port 3000
+undefined
+USERCERT != 'admin'
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+undefined
+USERCERT != 'admin'
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+admin
+admin
+admin
+CB:FA:CF:2D:00:39:81:83:F7:FD:59:B3:E1:D8:6F:CF:38:9F:7A:B7
+admin
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f4' failed: Identity 'f4' is already registered"}]]
+admin
+admin
+admin
+7B:88:83:36:CA:64:F0:AD:AC:94:60:BF:58:7C:61:BD:F4:65:0E:F6
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f5' failed: Identity 'f5' is already registered"}]]
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f5' failed: Identity 'f5' is already registered"}]]
+admin
+admin
+admin
+B7:D7:70:13:D8:A3:1D:4A:B9:85:79:56:CC:89:5C:7E:7E:B8:F2:95
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+admin
+admin
+admin
+3F:E1:E2:B3:73:02:E5:9A:20:F0:6C:F6:B4:65:BA:7C:5A:7C:17:5E
+admin
+Can't set headers after they are sent.
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+1C:61:DD:96:4D:FB:C3:6C:1E:F0:23:3B:13:49:11:A3:F6:DD:74:17
+admin
+Can't set headers after they are sent.
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+C2:34:2D:01:F4:51:BB:22:4F:C2:B3:9B:80:DF:5A:43:25:C2:FB:6E
+admin
+admin
+admin
+admin
+54:33:2C:62:EC:5E:65:66:0A:3D:E1:DC:4D:05:9E:1F:96:AC:C6:58
+admin
+admin
+admin
+admin
+3C:45:0A:48:85:CC:9E:DC:6D:4B:2D:C2:D1:8F:BE:CE:9E:8D:82:D8
+admin
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+5D:4D:DC:2C:55:A1:01:8F:31:D6:C1:C6:C4:BC:D4:2D:6F:2C:95:82
+admin
+Server started in port 3000
+Server started in port 3000
+admin
+{}
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:34:42)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+admin
+{}
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:34:42)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+admin
+{}
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:35:38)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+admin
+{}
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:35:38)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+admin
+{}
+Cannot read property '_type' of undefined TypeError: Cannot read property '_type' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:35:38)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+admin
+{}
+undefined
+admin
+Healthadmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'f1' failed: Identity 'f1' is already registered"}]]
+admin
+admin
+admin
+2C:CB:E7:F9:22:5D:DE:66:84:23:CA:67:3D:7B:AB:E0:80:1D:C1:47
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+admin
+admin
+admin
+FA:E0:92:B4:0D:37:3F:BB:77:86:0A:E3:1C:0F:FB:79:AD:3F:8B:CF
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'fdgdfvd' failed: Identity 'fdgdfvd' is already registered"}]]
+admin
+admin
+admin
+DE:E2:D2:2D:17:27:8F:B5:7E:3D:8D:FE:44:E2:75:74:D5:26:B4:95
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+Server started in port 3000
+undefined
+USERCERT != 'admin'
+undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+Server started in port 3000
+undefined
+USERCERT != 'admin'
+undefined
+undefined
+Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:96:20)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+admin
+Healthadmin
+admin
+admin
+admin
+00:2E:53:16:0A:EB:BF:11:7D:FB:F7:5D:2F:62:29:AC:95:AE:91:8A
+admin
+{ Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+  code: 'CLIENT_RES_ERR',
+  explanation: 'Chaincode error, this is a wrapper around the responses',
+  description: 'There was a problem while invoking the chaincode',
+  responses: 
+   [ { response: [Object], error: [Object] },
+     { response: [Object], error: [Object] } ],
+  message: '\n    CLIENT_RES_ERR\n    There was a problem while invoking the chaincode\n    Chaincode error, this is a wrapper around the responses\n\n    Original stack:\n    No original error information. This might be the root cause!\n    ' }
+admin
+{}
+undefined
+Server started in port 3000
+Server started in port 3000
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
