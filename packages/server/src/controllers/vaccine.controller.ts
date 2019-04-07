@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { getClientFactory } from '../convector';
-import { Vaccinerecord } from 'vaccine-cc';
+import { Vaccinerecord, Vaccinedetail } from 'vaccine-cc';
 const x509 = require('x509');
 
 const router: Router = Router();
@@ -16,7 +16,7 @@ router.post('/login', async (req: Request, res: Response) => {
     if (req.body.username == "admin")
         if (password == "123") {
             try {
-                user = await cntrl.isAuthinticated(req.body.username, password, req.body.type);
+                user = await cntrl.isAuthinticated(req.body.username, password);
                 console.log(user);
                 USERCERT = req.body.username;
                 res.status(200).send(user);
@@ -28,7 +28,7 @@ router.post('/login', async (req: Request, res: Response) => {
         else res.sendStatus(401);
     else {
         try {
-            user = await cntrl.isAuthinticated(req.body.username, password, req.body.type);
+            user = await cntrl.isAuthinticated(req.body.username, password);
             console.log(user);
             USERCERT = req.body.username;
             res.status(200).send(user[0]._type);
@@ -45,6 +45,22 @@ router.post('/create-record', async (req: Request, res: Response) => {
         let modelRaw = req.body;
         let model = new Vaccinerecord(modelRaw);
         let result = await cntrl.createRecord(model);
+        res.json(result);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.post('/create-detail', async (req: Request, res: Response) => {
+    try {
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.query;
+        console.log(params);
+        let modelRaw = req.body;
+        console.log(modelRaw);
+        let model = new Vaccinedetail(modelRaw);
+        let result = await cntrl.createDetail(model, params.recordId);
         res.json(result);
       } catch (ex) {
         console.log(ex.message, ex.stack);
@@ -115,13 +131,30 @@ router.post('/register', async (req: Request, res: Response) => {
     }
 });
 
-router.post('/get-records', async (req: Request, res: Response) => {
+router.get('/get-records', async (req: Request, res: Response) => {
     try {
         console.log("USERCERT: ",USERCERT);
         let cntrl = await getClientFactory(USERCERT);
-        let params = req.body;
+        let params = req.query;
         
         let returnObject = await cntrl.getAllRecords(params.username, params.type);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.get('/get-details', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.query;
+        
+        let returnObject = await cntrl.getAllDetails(params.recordId);
         if (returnObject === undefined) {
           return res.status(404);
         }
@@ -149,13 +182,47 @@ router.post('/record-permission', async (req: Request, res: Response) => {
       }
 });
 
-router.post('/get-one-record', async (req: Request, res: Response) => {
+router.post('/doctor-note', async (req: Request, res: Response) => {
     try {
         console.log("USERCERT: ",USERCERT);
         let cntrl = await getClientFactory(USERCERT);
         let params = req.body;
         
-        let returnObject = await cntrl.getRecordByID(params.id);
+        let returnObject = await cntrl.doctorNote(params.detailId, params.note);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.post('/physician-sign', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.body;
+        
+        let returnObject = await cntrl.physicianSign(params.detailId, params.signed, params.nextVisit, params.remainingVaccines);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.get('/detail-history', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.query;
+        
+        let returnObject = await cntrl.getDetailHistory(params.detailId);
         if (returnObject === undefined) {
           return res.status(404);
         }

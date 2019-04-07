@@ -35,12 +35,9 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string,
     @Param(yup.string())
-    userId: string,
-    @Param(yup.string())
-    type: Participants
+    userId: string
   ) {
     console.log(userId);
-    console.log(type);
     let isUsername = await Doctor.query(Doctor, { selector: { username: "hospital1" } });
     console.log("isUsername: ", isUsername);
 
@@ -60,9 +57,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
       }
       return new Healthadmin().type;
     }
-    const participant: any = this.findParticipant(type, true);
-    const existing = await participant.query(participant, { selector: { username: username, participantId: userId } });
-    console.log(participant);
+    const existing:any = await Doctor.query(Doctor, { selector: { username: username, participantId: userId } });
     console.log(existing);
     if (!existing || !existing.length) {
       throw new Error(`!existing`);
@@ -91,8 +86,8 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   public async createDetail(
     @Param(Vaccinedetail)
     vaccinedetail: Vaccinedetail,
-    @Param(Vaccinerecord)
-    vaccinerecord: Vaccinerecord
+    @Param(yup.string())
+    recordId: string
   ) {
 
     await this.isAuth(Participants.Hospital);
@@ -102,11 +97,16 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
       throw new Error('There is already one Vaccinedetail with that unique id');
     }
 
+    let vaccinerecord = await Vaccinerecord.getOne(recordId);
+
     vaccinedetail.id = this.tx.stub.generateUUID("detail");
     console.log(vaccinedetail);
     await vaccinedetail.save();
 
-    vaccinerecord.vaccineDetails.push(vaccinedetail.id);
+    if (vaccinerecord.vaccineDetails)
+      vaccinerecord.vaccineDetails.push(vaccinedetail.id);
+    else
+      vaccinerecord.vaccineDetails = [vaccinedetail.id];
     console.log(vaccinerecord);
     await vaccinerecord.save();
   }
@@ -120,7 +120,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     type: Participants
   ) {
-    
+
     await this.isAuth(Participants.Family);
 
     const family = await Family.getOne(this.sender);
@@ -150,14 +150,53 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   }
 
   @Invokable()
-  public async getRecordByID(
+  public async doctorNote(
     @Param(yup.string())
-    id: string
+    detailId: string,
+    @Param(yup.string())
+    note: string
   ) {
-    let record = await Vaccinerecord.getOne<Vaccinerecord>(id);
-    console.log(record);
-    return record;
+
+    await this.isAuth(Participants.Doctor);
+
+    const exists = await Vaccinedetail.getOne(detailId);
+    if (exists.doc != this.sender) {
+      throw new Error('exists.doc != this.sender');
+    }
+    exists.note = note;
+    console.log(exists);
+    await exists.save();
+    console.log(exists);
+    return true;
   }
+
+  @Invokable()
+  public async physicianSign(
+    @Param(yup.string())
+    detailId: string,
+    @Param(yup.boolean())
+    signed: boolean,
+    @Param(yup.string())
+    nextVisit: string,
+    @Param(yup.string())
+    remainingVaccines: string
+  ) {
+
+    await this.isAuth(Participants.Physician);
+
+    const exists = await Vaccinedetail.getOne(detailId);
+    if (exists.physician != this.sender) {
+      throw new Error('exists.physician != this.sender');
+    }
+    exists.signed = signed;
+    exists.nextVisit = nextVisit;
+    exists.remainingVaccines = remainingVaccines;
+    console.log(exists);
+    await exists.save();
+    console.log(exists);
+    return true;
+  }
+
   @Invokable()
   public async getAllRecords(
     @Param(yup.string())
@@ -173,7 +212,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     let r = await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, hospital: this.sender } });
     console.log(r);
     switch (type) {
-      case Participants.Healthadmin:{
+      case Participants.Healthadmin: {
         await this.isAuth(Participants.Healthadmin);
         return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id } });
       }
@@ -219,27 +258,20 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     recordId: string
   ) {
     const vaccinerecord = await Vaccinerecord.getOne(recordId);
-    let detail: Vaccinedetail[];
-    for (let detailId in vaccinerecord.vaccineDetails) {
-      detail.push(await Vaccinedetail.getOne(detailId))
+    let detail: Vaccinedetail[] = [];
+    for (let i in vaccinerecord.vaccineDetails) {
+      console.log(vaccinerecord.vaccineDetails[i]);
+      await detail.push(await Vaccinedetail.getOne(vaccinerecord.vaccineDetails[i]))
     }
     return await detail;
-  }
-
-  @Invokable()
-  public async getRecordHistory(
-    @Param(yup.string())
-    id: string
-  ): Promise<History<Vaccinerecord>[]> {
-    let item = await Vaccinerecord.getOne(id);
-    return await item.history();
   }
 
   @Invokable()
   public async getDetailHistory(
     @Param(yup.string())
     id: string
-  ): Promise<History<Vaccinedetail>[]> {
+  ) {
+    await this.isHistoryAuth();
     let item = await Vaccinedetail.getOne(id);
     return await item.history();
   }
@@ -262,13 +294,13 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     hospital: string
   ) {
     await this.isAuth(Participants.Healthadmin);
-    let isUsername:any = await Doctor.query(Doctor, { selector: { username: username } });
+    let isUsername: any = await Doctor.query(Doctor, { selector: { username: username } });
 
-    let isParticipantId:any = await Doctor.query(Doctor, { selector: { participantId: participantId } });
-    if(isUsername.id || isUsername.length){
+    let isParticipantId: any = await Doctor.query(Doctor, { selector: { participantId: participantId } });
+    if (isUsername.id || isUsername.length) {
       throw new Error(`username ${id} already exists`);
     }
-    if(isParticipantId.id || isParticipantId.length){
+    if (isParticipantId.id || isParticipantId.length) {
       throw new Error(`ParticipantId ${id} already exists`);
     }
     console.log(id);
@@ -349,10 +381,22 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     return Physician.query(Physician, { selector: { username: username } });
   }
 
+  private async isHistoryAuth() {
+    
+    const isAdmin:any = await Healthadmin.query(Healthadmin, { selector: { id: this.sender, type: Participants.Healthadmin } });
+    const isHospital:any = await Hospital.query(Hospital, { selector: { id: this.sender, type: Participants.Hospital } });
+
+    console.log("isAdmin: ", isAdmin);
+    console.log("isHospital: ", isHospital);
+    if (!isAdmin.length && !isHospital.length) {
+      throw new Error('Unauthorized');
+    }
+  }
+
   private async isAuth(type: Participants) {
     const participant: any = this.findParticipant(type, true);
     const existing = await participant.query(participant, { selector: { id: this.sender, type: type } });
-    
+
     console.log("isAuth: ", existing);
     if (!existing.length) {
       throw new Error('Unauthorized');

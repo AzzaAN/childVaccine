@@ -1483,3 +1483,628 @@ admin
     _username: 'doctor3' } ]
 USERCERT:  doctor3
 doctor3
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+{}
+{ id: 'string',
+  vaccineName: 'vaccineName1',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: 'string',
+  vaccineName: 'vaccineName1',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: 'string',
+  vaccineName: 'vaccineName1',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+vaccineDetails:  undefined
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+vaccineDetails:  undefined
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: '2',
+  vaccineName: 'vaccineName2',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ vaccineName: 'vaccineName3',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: '2',
+  vaccineName: 'vaccineName3',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: '3',
+  vaccineName: 'vaccineName3',
+  childAge: 'childAge',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+USERCERT:  hospital1
+hospital1
+vaccineDetails:  undefined
+Server started in port 3000
+Server started in port 3000
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+vaccineDetails:  undefined
+Server started in port 3000
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+Cannot read property 'vaccineDetails' of undefined TypeError: Cannot read property 'vaccineDetails' of undefined
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:144:56)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+Server started in port 3000
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+USERCERT:  doctor1
+doctor1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+{ recordId: '785fb2cd-4ff9-4f42-87eb-b0d4f9178921' }
+{ id: '3',
+  vaccineName: 'vaccineName4',
+  childAge: '12/12/2017',
+  childTemperature: '27',
+  childWeight: '20',
+  childHeight: '30',
+  doc: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+  physician: 'D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA' }
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+doctor1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+Server started in port 3000
+Server started in port 3000
+{ username: 'doctor1', userId: '3' }
+admin
+[ { _fullname: 'fullname1',
+    _hospital: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+USERCERT:  doctor1
+doctor1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+{ username: 'admin', userId: '123' }
+admin
+Healthadmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+{ username: 'admin', userId: '123' }
+admin
+Healthadmin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin

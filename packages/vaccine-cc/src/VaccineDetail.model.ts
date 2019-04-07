@@ -12,11 +12,6 @@ export class Vaccinedetail extends ConvectorModel<Vaccinedetail> {
   @Required()
   public readonly type = 'VaccineDetail';
 
-  @ReadOnly()
-  @Required()
-  @Validate(yup.string())
-  public id: string;
-
   @Required()
   @Validate(yup.string())
   public vaccineName: string;
