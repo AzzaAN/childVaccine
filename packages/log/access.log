@@ -392,3 +392,1094 @@ admin
     _status: true,
     _type: 'Hospital',
     _username: 'hospital1' } ]
+Server started in port 3000
+undefined
+undefined
+USERCERT != 'admin'
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+HealthAdmin
+admin
+admin
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+hospital1
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+{ username: 'family3', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+{ username: 'family3', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+{ username: 'family3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+{ username: 'family1', userId: '1078081351', type: 'Family' }
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+{ username: 'family3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+USERCERT:  family3
+family3
+Server started in port 3000
+Server started in port 3000
+{ username: 'family3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+HealthAdmin
+admin
+admin
+admin
+11:51:85:25:ED:24:61:05:0A:EB:2E:38:D0:8C:67:B0:5D:05:22:C9
+admin
+admin
+admin
+admin
+14:E1:13:5B:3C:BD:59:14:8E:F6:F1:EE:C7:62:18:13:89:85:FA:20
+admin
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+{ username: 'family3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+{ username: 'hospital1', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+{ username: 'family3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'A3:D5:73:54:8D:88:46:13:08:42:E3:3F:C9:A9:0C:82:CD:3C:69:CB',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Family',
+    _username: 'family3' } ]
+USERCERT:  family3
+family3
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+USERCERT:  hospital1
+hospital1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '1078081351', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'EF:59:3D:9F:72:08:D2:12:FC:38:AB:B3:CE:E2:5C:D8:CD:2F:BF:AC',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+HealthAdmin
+admin
+admin
+admin
+88:25:2B:93:0A:08:A6:3E:DC:2D:EC:6A:06:E0:18:36:78:09:7B:AA
+admin
+{ username: 'hospital3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: '88:25:2B:93:0A:08:A6:3E:DC:2D:EC:6A:06:E0:18:36:78:09:7B:AA',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital3' } ]
+USERCERT:  hospital3
+hospital3
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital3', userId: '1078081351', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: '88:25:2B:93:0A:08:A6:3E:DC:2D:EC:6A:06:E0:18:36:78:09:7B:AA',
+    _participantId: '1078081351',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital3' } ]
+USERCERT:  hospital3
+hospital3
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+USERCERT:  hospital3
+hospital3
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+USERCERT:  admin
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+USERCERT:  admin
+admin
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+undefined
+USERCERT != 'admin'
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+HealthAdmin
+HealthAdmin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital3' failed: Identity 'hospital3' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital3' failed: Identity 'hospital3' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+CE:70:0A:02:CB:72:2B:AE:35:C2:D5:86:EC:BB:9F:C6:98:A7:3D:96
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+Healthadmin
+admin
+admin
+admin
+AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1
+admin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital1' failed: Identity 'hospital1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital1' failed: Identity 'hospital1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+DA:1D:AD:39:97:2E:1E:83:93:86:CB:46:96:36:D5:6F:52:D4:7F:00
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital2' failed: Identity 'hospital2' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital2' failed: Identity 'hospital2' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+73:4B:B0:44:86:35:F7:F3:C5:CF:4B:CB:84:42:5B:B1:34:E4:0B:9B
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'family1' failed: Identity 'family1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'family1' failed: Identity 'family1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+47:B3:24:5F:8C:A1:57:21:71:9F:4D:75:A8:10:CE:65:87:47:CE:E8
+admin
+admin
+admin
+admin
+69:59:59:EE:79:F4:23:C2:48:79:B0:AA:62:A9:C8:FE:30:88:D3:A4
+admin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital2' failed: Identity 'hospital2' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'hospital2' failed: Identity 'hospital2' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+25:DA:32:AD:27:13:19:8A:2A:2D:0E:D9:0F:AA:57:CA:7B:4C:BA:E3
+admin
+admin
+{ username: 'family1', userId: '1111111111', type: 'Family' }
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+{ username: 'family2', userId: '1111111111', type: 'Family' }
+admin
+[ { _fullname: 'fullname1',
+    _id: '47:B3:24:5F:8C:A1:57:21:71:9F:4D:75:A8:10:CE:65:87:47:CE:E8',
+    _participantId: '1111111111',
+    _status: true,
+    _type: 'Family',
+    _username: 'family2' } ]
+family2
+USERCERT != 'admin'
+family2
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+USERCERT:  family2
+family2
+USERCERT:  family2
+family2
+USERCERT:  family2
+family2
+{ username: 'admin', userId: '123', type: 'Family' }
+admin
+Healthadmin
+admin
+USERCERT:  admin
+admin
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+Server started in port 3000
+Server started in port 3000
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+USERCERT:  undefined
+undefined
+Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value Error: Illegal arguments: "checkPersistence" is truthy but "name" is not a valid string value
+    at Client.getUserContext (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-client/lib/Client.js:1564:10)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:146:35)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.useUser (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:169:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:168:18)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+{ username: 'hospital1', userId: '2222222222', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+[ { _fullname: 'fullname1',
+    _id: 'AF:99:4D:4D:0C:2D:E5:0A:86:C1:AD:CC:EA:D3:21:04:27:39:D9:A1',
+    _participantId: '2222222222',
+    _status: true,
+    _type: 'Hospital',
+    _username: 'hospital1' } ]
+USERCERT:  hospital1
+hospital1
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+USERCERT:  hospital1
+hospital1
+USERCERT:  hospital1
+hospital1
+{ username: 'admin', userId: '123', type: 'Hospital' }
+admin
+Healthadmin
+admin
+admin
+admin
+E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0
+admin
+admin
+admin
+admin
+D8:70:00:DE:09:2D:74:2F:65:99:E1:2E:52:D5:E2:85:3B:E1:C4:CA
+admin
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'doctor1' failed: Identity 'doctor1' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'doctor1' failed: Identity 'doctor1' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+9F:57:3A:9A:33:04:5C:97:68:2C:54:88:2D:DD:49:FB:85:83:49:54
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+admin
+admin
+fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'doctor2' failed: Identity 'doctor2' is already registered"}]] Error: fabric-ca request register failed with errors [[{"code":0,"message":"Registration of 'doctor2' failed: Identity 'doctor2' is already registered"}]]
+    at IncomingMessage.response.on (/Users/azza/Documents/GitHub/childVaccine/node_modules/fabric-ca-client/lib/FabricCAClient.js:327:22)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+admin
+admin
+admin
+09:4D:2B:47:04:9A:0C:8E:AA:D1:98:60:F2:39:D1:99:33:7D:85:AF
+admin
+{ username: 'doctor1', userId: '3', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: 'E4:76:B3:19:3A:D4:7E:6C:03:64:D5:E1:EE:46:0D:F5:40:D8:44:E0',
+    _participantId: '3',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor1' } ]
+USERCERT:  doctor1
+doctor1
+USERCERT:  doctor1
+doctor1
+{ username: 'doctor2', userId: '34', type: 'Hospital' }
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+{ username: 'doctor3', userId: '34', type: 'Hospital' }
+admin
+[ { _fullname: 'fullname1',
+    _id: '09:4D:2B:47:04:9A:0C:8E:AA:D1:98:60:F2:39:D1:99:33:7D:85:AF',
+    _participantId: '34',
+    _status: true,
+    _type: 'Doctor',
+    _username: 'doctor3' } ]
+USERCERT:  doctor3
+doctor3

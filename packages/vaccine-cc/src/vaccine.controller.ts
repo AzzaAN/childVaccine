@@ -41,6 +41,11 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   ) {
     console.log(userId);
     console.log(type);
+    let isUsername = await Doctor.query(Doctor, { selector: { username: "hospital1" } });
+    console.log("isUsername: ", isUsername);
+
+    let ids = await Doctor.query(Doctor, { selector: { participantId: "1078081351" } });
+    console.log("ids: ", ids);
     if (username == "admin") {
       const existing: any = await Healthadmin.query(Healthadmin, { selector: { username: username, participantId: userId } });
       if (!existing || !existing.length) {
@@ -70,7 +75,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(Vaccinerecord)
     vaccinerecord: Vaccinerecord
   ) {
-    this.isAuth(Participants.Healthadmin);
+    await this.isAuth(Participants.Healthadmin);
 
     const exists = await Vaccinerecord.getOne(vaccinerecord.id);
     if (exists.id) {
@@ -90,7 +95,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     vaccinerecord: Vaccinerecord
   ) {
 
-    this.isAuth(Participants.Hospital);
+    await this.isAuth(Participants.Hospital);
 
     const exists = await Vaccinedetail.getOne(vaccinedetail.id);
     if (exists.id === vaccinedetail.id) {
@@ -107,22 +112,83 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   }
 
   @Invokable()
-  public async getAllRecords(
+  public async recordPermission(
+    @Param(yup.string())
+    recordId: string,
+    @Param(yup.string())
+    participantId: string,
     @Param(yup.string())
     type: Participants
   ) {
+    
+    await this.isAuth(Participants.Family);
+
+    const family = await Family.getOne(this.sender);
+    const exists = await Vaccinerecord.getOne(recordId);
+    if (exists.family != family.id) {
+      throw new Error('exists.family != family.id');
+    }
+
     switch (type) {
+      case Participants.Hospital:
+        exists.hospital = participantId;
+        break;
+      case Participants.School:
+        exists.school = participantId;
+        break;
+      case Participants.Insurance:
+        exists.insurance = participantId;
+        break;
+      default:
+        throw new Error(`type ${type} is not one of the Participants`);
+    }
+
+    console.log(exists);
+    await exists.save();
+    console.log(exists);
+    return true;
+  }
+
+  @Invokable()
+  public async getRecordByID(
+    @Param(yup.string())
+    id: string
+  ) {
+    let record = await Vaccinerecord.getOne<Vaccinerecord>(id);
+    console.log(record);
+    return record;
+  }
+  @Invokable()
+  public async getAllRecords(
+    @Param(yup.string())
+    username: string,
+    @Param(yup.string())
+    type: Participants
+  ) {
+    console.log(this.sender);
+    console.log(type);
+    let family: any = await Family.query(Family, { selector: { username: username } });
+    console.log(family);
+    console.log(family[0].id);
+    let r = await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, hospital: this.sender } });
+    console.log(r);
+    switch (type) {
+      case Participants.Healthadmin:{
+        await this.isAuth(Participants.Healthadmin);
+        return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id } });
+      }
+
       case Participants.Family:
         return await Vaccinerecord.query(Vaccinerecord, { selector: { family: this.sender } });
 
       case Participants.Hospital:
-        return await Vaccinerecord.query(Vaccinerecord, { selector: { hospital: this.sender } });
+        return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, hospital: this.sender } });
 
       case Participants.Insurance:
-        return await Vaccinerecord.query(Vaccinerecord, { selector: { insurance: this.sender } });
+        return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, insurance: this.sender } });
 
       case Participants.School:
-        return await Vaccinerecord.query(Vaccinerecord, { selector: { school: this.sender } });
+        return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, school: this.sender } });
 
       case Participants.Doctor:
         {
@@ -130,7 +196,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
           if (!existing.id) {
             throw new Error('!existing');
           }
-          return await Vaccinerecord.query(Vaccinerecord, { selector: { hospital: existing.hospital } });
+          return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, hospital: existing.hospital } });
         }
 
       case Participants.Physician:
@@ -139,7 +205,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
           if (!existing.id) {
             throw new Error('!existing');
           }
-          return await Vaccinerecord.query(Vaccinerecord, { selector: { hospital: existing.hospital } });
+          return await Vaccinerecord.query(Vaccinerecord, { selector: { family: family[0].id, hospital: existing.hospital } });
         }
 
       default:
@@ -158,37 +224,6 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
       detail.push(await Vaccinedetail.getOne(detailId))
     }
     return await detail;
-  }
-
-  @Invokable()
-  public async getRecordById(
-    @Param(yup.string())
-    recordId: string,
-    @Param(yup.string())
-    type: Participants
-  ) {
-    const vaccinerecord = await Vaccinerecord.getOne(recordId);
-    switch (type) {
-      case Participants.Family:
-        if (vaccinerecord.family != this.sender) throw new Error(`Unauthorized`);
-        else break;
-
-      case Participants.Hospital:
-        if (vaccinerecord.hospital != this.sender) throw new Error(`Unauthorized`);
-        else break;
-
-      case Participants.Insurance:
-        if (vaccinerecord.insurance != this.sender) throw new Error(`Unauthorized`);
-        else break;
-
-      case Participants.School:
-        if (vaccinerecord.school != this.sender) throw new Error(`Unauthorized`);
-        else break;
-
-      default:
-        throw new Error(`type ${type} is not one of the Participants`);
-    }
-    return vaccinerecord;
   }
 
   @Invokable()
@@ -226,7 +261,16 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     hospital: string
   ) {
-    this.isAuth(Participants.Healthadmin);
+    await this.isAuth(Participants.Healthadmin);
+    let isUsername:any = await Doctor.query(Doctor, { selector: { username: username } });
+
+    let isParticipantId:any = await Doctor.query(Doctor, { selector: { participantId: participantId } });
+    if(isUsername.id || isUsername.length){
+      throw new Error(`username ${id} already exists`);
+    }
+    if(isParticipantId.id || isParticipantId.length){
+      throw new Error(`ParticipantId ${id} already exists`);
+    }
     console.log(id);
     console.log(type);
     let participantInstance = this.findParticipant(type, true);
@@ -256,7 +300,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Healthadmin);
+    await this.isAuth(Participants.Healthadmin);
     return Family.query(Family, { selector: { username: username } });
   }
 
@@ -265,7 +309,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Family);
+    await this.isAuth(Participants.Family);
     return Hospital.query(Hospital, { selector: { username: username } });
   }
 
@@ -274,7 +318,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Family);
+    await this.isAuth(Participants.Family);
     return Insurance.query(Insurance, { selector: { username: username } });
   }
 
@@ -283,7 +327,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Family);
+    await this.isAuth(Participants.Family);
     return School.query(School, { selector: { username: username } });
   }
 
@@ -292,7 +336,7 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Hospital);
+    await this.isAuth(Participants.Hospital);
     return Doctor.query(Doctor, { selector: { username: username } });
   }
 
@@ -301,14 +345,16 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
     @Param(yup.string())
     username: string
   ) {
-    this.isAuth(Participants.Hospital);
+    await this.isAuth(Participants.Hospital);
     return Physician.query(Physician, { selector: { username: username } });
   }
 
   private async isAuth(type: Participants) {
     const participant: any = this.findParticipant(type, true);
-    const existing = await participant.getOne(this.sender);
-    if (!existing.id) {
+    const existing = await participant.query(participant, { selector: { id: this.sender, type: type } });
+    
+    console.log("isAuth: ", existing);
+    if (!existing.length) {
       throw new Error('Unauthorized');
     }
   }

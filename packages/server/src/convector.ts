@@ -28,7 +28,7 @@ export async function setUserContext(USERCERT) {
 function fabricAdapter(USERCERT) {
     return new FabricControllerAdapter({
         txTimeout: 300000,
-        user: 'admin',
+        user: USERCERT,
         channel,
         chaincode,
         keyStore: resolve(__dirname, '/Users/azza/hyperledger-fabric-network/.hfc-org1'),

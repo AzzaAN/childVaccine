@@ -10,7 +10,7 @@ import {
 export class Healthadmin extends ConvectorModel<Healthadmin> {
   @ReadOnly()
   @Required()
-  public readonly type = 'HealthAdmin';
+  public readonly type = 'Healthadmin';
 
   @Required()
   @Validate(yup.string())

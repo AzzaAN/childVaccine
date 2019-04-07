@@ -8,22 +8,6 @@ let USERCERT: string;
 // Check if the server identity has been enrolled successfully
 //InitServerIdentity();
 
-router.post('/get-records', async (req: Request, res: Response) => {
-    try {
-        let cntrl = await getClientFactory(USERCERT);
-        let params = req.body;
-        
-        let returnObject = await cntrl.getAllRecords(params.type);
-        if (returnObject === undefined) {
-          return res.status(404);
-        }
-        res.json(returnObject);
-      } catch (ex) {
-        console.log(ex.message, ex.stack);
-        res.status(500).send(ex.stack);
-      }
-});
-
 router.post('/login', async (req: Request, res: Response) => {
     console.log(req.body);
     let password = req.body.userId;
@@ -129,6 +113,57 @@ router.post('/register', async (req: Request, res: Response) => {
       console.log(ex.message, ex.stack);
       res.status(500).send(ex.stack);
     }
+});
+
+router.post('/get-records', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.body;
+        
+        let returnObject = await cntrl.getAllRecords(params.username, params.type);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.post('/record-permission', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.body;
+        
+        let returnObject = await cntrl.recordPermission(params.recordId, params.participantId, params.type);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
+});
+
+router.post('/get-one-record', async (req: Request, res: Response) => {
+    try {
+        console.log("USERCERT: ",USERCERT);
+        let cntrl = await getClientFactory(USERCERT);
+        let params = req.body;
+        
+        let returnObject = await cntrl.getRecordByID(params.id);
+        if (returnObject === undefined) {
+          return res.status(404);
+        }
+        res.json(returnObject);
+      } catch (ex) {
+        console.log(ex.message, ex.stack);
+        res.status(500).send(ex.stack);
+      }
 });
 
 export const VaccineExpressController: Router = router;
