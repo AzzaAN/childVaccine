@@ -51,7 +51,7 @@ router.post('/create-record', async (req: Request, res: Response) => {
     res.json(result);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -67,7 +67,7 @@ router.post('/create-detail', async (req: Request, res: Response) => {
     res.json(result);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -147,7 +147,7 @@ router.get('/get-records', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -164,7 +164,7 @@ router.get('/get-details', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -181,7 +181,7 @@ router.post('/record-permission', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -198,7 +198,7 @@ router.post('/doctor-note', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -215,7 +215,7 @@ router.post('/physician-sign', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -232,7 +232,7 @@ router.get('/detail-history', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 
@@ -249,7 +249,7 @@ router.get('/get-participant', async (req: Request, res: Response) => {
     res.json(returnObject);
   } catch (ex) {
     console.log(ex.message, ex.stack);
-    res.status(500).send(ex.stack);
+    res.status(500).send(ex);
   }
 });
 

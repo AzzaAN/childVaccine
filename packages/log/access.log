@@ -3555,3 +3555,252 @@ admin
 Server started in port 3000
 Server started in port 3000
 Server started in port 3000
+Server started in port 3000
+admin
+Healthadmin
+USERCERT:  admin
+admin
+admin
+admin
+admin
+24:C9:99:D4:8E:1E:34:68:B4:8F:CF:48:A6:E2:A1:30:1D:2F:2C:2E
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+USERCERT:  admin
+admin
+Server started in port 3000
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+Undefined parameters received as part of the transaction, check how the function is being called Error: Undefined parameters received as part of the transaction, check how the function is being called
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:320:15
+    at Array.map (<anonymous>)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:317:41)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at /Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:103:16)
+    at FabricControllerAdapter.ClientHelper.sendTransactionProposal (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/dist/src/client.helper.js:378:24)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-common-fabric-helper/src/client.helper.ts:180:45)
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+Server started in port 3000
+Server started in port 3000
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
+admin
+
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+     Error: 
+    CLIENT_RES_ERR
+    There was a problem while invoking the chaincode
+    Chaincode error, this is a wrapper around the responses
+
+    Original stack:
+    No original error information. This might be the root cause!
+    
+    at ClientResponseError.BaseError [as constructor] (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/base.error.ts:18:5)
+    at new ClientResponseError (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-core-errors/src/client.errors.ts:17:5)
+    at FabricControllerAdapter.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/@worldsibu/convector-adapter-fabric/src/fabric.controller-adapter.ts:41:13)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.throw (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at rejected (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:105:69)
+    at <anonymous>
