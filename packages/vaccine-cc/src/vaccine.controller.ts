@@ -77,6 +77,25 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   }
 
   @Invokable()
+  public async checkUsernameAndID(
+    @Param(yup.string())
+    username: string,
+    @Param(yup.string())
+    userId: string
+  ) {
+    await this.isAuth(Participants.Healthadmin);
+    let isUsername: any = await Doctor.query(Doctor, { selector: { username: username } });
+
+    let isParticipantId: any = await Doctor.query(Doctor, { selector: { participantId: userId } });
+    if (isUsername.id || isUsername.length) {
+      throw new Error(Errors.Username);
+    }
+    if (isParticipantId.id || isParticipantId.length) {
+      throw new Error(Errors.ParticipantId);
+    }
+  }
+
+  @Invokable()
   public async createRecord(
     @Param(Vaccinerecord)
     vaccinerecord: Vaccinerecord
@@ -163,20 +182,22 @@ export class VaccineController extends ConvectorController<ChaincodeTx> {
   @Invokable()
   public async getParticipantByUsername(
     @Param(yup.string())
-    username: string
+    username: string,
+    @Param(yup.string())
+    type: string
   ) {
-    const isAdmin:any = await Healthadmin.query(Healthadmin, { selector: { id: this.sender, type: Participants.Healthadmin } });
-    const isHospital:any = await Hospital.query(Hospital, { selector: { id: this.sender, type: Participants.Hospital } });
-    const isFamily:any = await Family.query(Family, { selector: { id: this.sender, type: Participants.Family } });
+    // const isAdmin:any = await Healthadmin.query(Healthadmin, { selector: { id: this.sender, type: Participants.Healthadmin } });
+    // const isHospital:any = await Hospital.query(Hospital, { selector: { id: this.sender, type: Participants.Hospital } });
+    // const isFamily:any = await Family.query(Family, { selector: { id: this.sender, type: Participants.Family } });
 
-    console.log("isAdmin: ", isAdmin);
-    console.log("isHospital: ", isHospital);
-    console.log("isFamily: ", isFamily);
-    if (!isAdmin.length && !isHospital.length && !isFamily.length) {
-      throw new Error(Errors.Unauthorized);
-    }
+    // console.log("isAdmin: ", isAdmin);
+    // console.log("isHospital: ", isHospital);
+    // console.log("isFamily: ", isFamily);
+    // if (!isAdmin.length && !isHospital.length && !isFamily.length) {
+    //   throw new Error(Errors.Unauthorized);
+    // }
 
-    return await Family.query(Family, { selector: { username: username } });
+    return await Family.query(Family, { selector: { username: username, type: type } });
   }
 
   @Invokable()

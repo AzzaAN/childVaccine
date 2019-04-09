@@ -3673,3 +3673,170 @@ Debugger listening on ws://0.0.0.0:8888/d46f314a-01b5-4ac8-87a4-a059287898c7
 For help see https://nodejs.org/en/docs/inspector
 Debugger listening on ws://0.0.0.0:8888/b9244af4-1f3c-4cb5-9457-a4b64300115c
 For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/fdc94d54-4b09-4c82-b683-449bf7eea9b6
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/6ea3f7f4-06a5-4480-b008-396697ae5549
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/f0a452fc-36de-4cc4-b4c3-8cb17542b221
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/c37d88f1-51cc-4c0c-b6ce-4aff7fe62a05
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/c2120a2c-2e98-44ae-9cbb-153b3522b6af
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/4a956768-2fb1-485e-858b-2628b21f53e2
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/7b5ed182-8fc7-4c82-a9fd-b14185b207d9
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/9c92733e-f74c-4981-a303-7a1946b86d6f
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/86a41ee9-ad40-4e4a-a336-a859bee420bf
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/7f09b938-c16d-4795-90e7-21d8ebb0e2c3
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/370deef5-ad52-428f-8a6b-a5daa08b43f0
+For help see https://nodejs.org/en/docs/inspector
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:158:21)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:40:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+Error: Can't set headers after they are sent.
+    at validateHeader (_http_outgoing.js:491:11)
+    at ServerResponse.setHeader (_http_outgoing.js:498:3)
+    at ServerResponse.header (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:267:15)
+    at ServerResponse.send (/Users/azza/Documents/GitHub/childVaccine/node_modules/express/lib/response.js:158:21)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/packages/server/src/controllers/vaccine.controller.ts:40:23)
+    at step (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/Users/azza/Documents/GitHub/childVaccine/node_modules/tslib/tslib.js:104:62)
+Debugger listening on ws://0.0.0.0:8888/fd5fad2f-1f17-4370-ba47-9a47ed745768
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/910d7ff4-0bee-4100-99fb-17b965b5b7cd
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/0f49af8b-4a4e-4c1c-b325-6dd268b2121f
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/c9bb6b43-c11f-4a7f-8a6b-2ff9f7d3f509
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/1f541c92-0a26-46b3-bfe7-1553c9e1d3fc
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/4a3d77c2-1430-4a9a-ad8c-0c474027c4fe
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/227e09fb-dee8-454c-a739-f077617cde20
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/9a93ab66-ecc6-4919-abf4-09e574596ded
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/adc228af-2634-452d-b1f3-022e1ef1c790
+For help see https://nodejs.org/en/docs/inspector
+{ Error: Cannot find module '/Users/azza/Documents/GitHub/childVaccine/packages/server/dist/app.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function._load (/Users/azza/Documents/GitHub/childVaccine/node_modules/@pm2/io/src/metrics/httpMetrics.ts:190:35)
+    at Object.<anonymous> (/Users/azza/Documents/GitHub/childVaccine/node_modules/pm2/lib/ProcessContainerFork.js:27:21)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10) code: 'MODULE_NOT_FOUND' }
+Debugger listening on ws://0.0.0.0:8888/1cb7a89d-0123-4051-8bc5-4174268b2b64
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/e4d634e2-26a9-408b-bf2d-4fa95629ebc0
+For help see https://nodejs.org/en/docs/inspector
+Debugger listening on ws://0.0.0.0:8888/41c3b6e4-77d4-4a3a-9de1-c2b2852f5008
+For help see https://nodejs.org/en/docs/inspector

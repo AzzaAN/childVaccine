@@ -32,9 +32,9 @@ router.post('/login', async (req: Request, res: Response) => {
       console.log(user);
       console.log(user.length);
       USERCERT = req.body.username;
-      if (user.length)
-        res.status(200).send(user[0]._type);
-      res.status(200).send(user);
+      res.status(200)
+      if (user.length) res.json(user[0]._type);
+      else res.json(user);
     } catch (ex) {
       console.log(ex.message, ex.stack);
       res.status(500).send(ex);
@@ -79,7 +79,9 @@ router.post('/register', async (req: Request, res: Response) => {
     res.sendStatus(401);
   }
   try {
-    let cntrl = await getClientFactory(USERCERT);
+    //await 
+    let ctrl = await getClientFactory(USERCERT);
+    await ctrl.checkUsernameAndID(req.body.username, req.body.participantId);
     let d = await getClientFactory(USERCERT);
     let adapter = d.adapter;
 
@@ -124,13 +126,12 @@ router.post('/register', async (req: Request, res: Response) => {
     var fingerprint = x509.parseCert(certificate).fingerPrint;
     console.log(fingerprint);
 
-    let ctrl = await getClientFactory(USERCERT);
     await ctrl.register(fingerprint, req.body.type, req.body.username, req.body.fullname, req.body.participantId, req.body.hospital);
 
     res.sendStatus(200);
   } catch (ex) {
     console.log(ex);
-    res.status(403).send(ex);
+    res.status(500).send(ex);
   }
 });
 
@@ -242,7 +243,7 @@ router.get('/get-participant', async (req: Request, res: Response) => {
     let cntrl = await getClientFactory(USERCERT);
     let params = req.query;
 
-    let returnObject = await cntrl.getParticipantByUsername(params.username);
+    let returnObject = await cntrl.getParticipantByUsername(params.username, params.type);
     if (returnObject === undefined) {
       return res.status(404);
     }
